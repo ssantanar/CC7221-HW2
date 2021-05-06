@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/content/convnet2")
+sys.path.append("/content/CC7221-HW2")
 import tensorflow as tf
 import models.resnet as resnet
 import datasets.data as data

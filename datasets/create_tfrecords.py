@@ -5,7 +5,7 @@ This code allow  you to generate tfrecords files for test.txt and train.txt
 Using tfrecords is an efficient manner to store the data, which allows the model to read the data quickly, especially during training.
 """
 import sys
-sys.path.append("/content/convnet2")
+sys.path.append("/content/CC7221-HW2")
 import argparse
 import utils.configuration as conf
 import utils.imgproc as imgproc

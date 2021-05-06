@@ -3,7 +3,7 @@ jsaavedr, 2020
 
 This is a simple version of train.py. 
 
-Before using this program, set the path where the folder "convnet2" can be located.
+Before using this program, set the path where the folder "CC7221-HW2" can be located.
 To use train.py, you will require to set the following parameters :
  * -config : A configuration file where a set of parameters for data construction and trainig is defined.
  * -name: A section name in the configuration file.
@@ -12,8 +12,8 @@ To use train.py, you will require to set the following parameters :
 """
 
 import sys
-#modify the following line according to the locations where convnet2 is located
-sys.path.append("/content/convnet2")
+#modify the following line according to the locations where CC7221-HW2 is located
+sys.path.append("/content/CC7221-HW2")
 import tensorflow as tf
 from models import simple
 from models import alexnet

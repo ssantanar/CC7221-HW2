@@ -1,5 +1,5 @@
 import sys
-("/home/jsaavedr/Research/git/tensorflow-2/convnet2")
+("/home/jsaavedr/Research/git/tensorflow-2/CC7221-HW2")
 import tensorflow as tf
 import models.resnet as resnet
 import datasets.data as data

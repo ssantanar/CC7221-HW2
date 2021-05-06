@@ -22,7 +22,7 @@ if __name__ == '__main__' :
     configuration_file = pargs.config
     configuration = conf.ConfigurationFile(configuration_file, pargs.name)               
     #parser_tf_record
-    #/home/vision/smb-datasets/MNIST-5000/ConvNet2.0/
+    #/home/vision/smb-datasets/MNIST-5000/CC7221-HW2.0/
     tfr_train_file = os.path.join(configuration.get_data_dir(), pargs.file)   
     
     mean_file = os.path.join(configuration.get_data_dir(), "mean.dat")

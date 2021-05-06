@@ -11,8 +11,8 @@ To use train.py, you will require to send the following parameters :
 """
 
 import sys
-#set the convnet2 path
-sys.path.append("/content/convnet2")
+#set the CC7221-HW2 path
+sys.path.append("/content/CC7221-HW2")
 import tensorflow as tf
 from models import resnet, uv_rois
 import datasets.data as data
